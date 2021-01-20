@@ -23,7 +23,7 @@ from typing import List, Tuple
 from math import sin, tan
 
 # Third party
-from panda3d.core import deg2Rad
+from panda3d.core import deg2Rad, WindowProperties
 from panda3d.core import NodePath, LVecBase3f
 from panda3d.core import PointLight, AmbientLight
 from direct.showbase.ShowBase import ShowBase
@@ -118,6 +118,7 @@ if __name__ == '__main__':
 
                 # self explanatory
                 self.center_camera_on_stratum(self.stratum)
+                self.set_window_title("3D Neural Network Visualization")
             else:
                 """
                 Setup with scene lighting and animation
@@ -132,6 +133,7 @@ if __name__ == '__main__':
                 self.center_stratum_on_pivot()
                 self.center_camera_on_stratum(self.center_pivot_node)
                 self.add_light_source_to_node(self.cam)
+                self.set_window_title("3D Neural Network Visualization")
 
                 # begin rotation task
                 self.taskMgr.add(self.rotate_network, "rotate-network")
@@ -148,6 +150,11 @@ if __name__ == '__main__':
             z_length = bounds[1].z - bounds[0].z
             distance = max(x_length, z_length) / tan(deg2Rad(min(fov[0], fov[1])))
             self.cam.setY(-distance)
+
+        def set_window_title(self, title: str):
+            wp = WindowProperties()
+            wp.setTitle(title)
+            self.win.requestProperties(wp)
 
         """
         Animation helpers
