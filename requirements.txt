@@ -1,0 +1,3 @@
+# Editable Git install with no remote (NeuralNetworkVisualization-stefanagapie==0.0.1)
+-e /Users/stefanagapie/Desktop/pythonProject/NeuralNetworkVisualization
+panda3d==1.10.8
