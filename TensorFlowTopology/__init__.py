@@ -1,0 +1,1 @@
+from TensorFlowTopology.sequential_model_visualization import TFSequentialModelSymmetricTopologyDelegate

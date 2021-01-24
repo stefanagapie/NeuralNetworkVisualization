@@ -1,12 +1,11 @@
 # 3D Neural Network Visualization
 ***
-Provides a set of APIs to visualize a network of neurons and connections in 3D space using the Panda3D game engine.
+Provides a set of APIs to visualize a network of neurons and connections in 3D space using Panda3D, a Python game engine.
 ***
 
-## Basic Example
-See ***Examples/symmetric_stratum_basic.py***
+## Neural Network Visualization
 
-![](Examples/assets/symmetric_stratum_basic.gif)
+![](Examples/assets_neural_network/symmetric_neural_network.gif)
 
 ### Running the code
 
@@ -14,14 +13,30 @@ See ***Examples/symmetric_stratum_basic.py***
 - Clone this repo
 - `> cd NeuralNetworkVisualization`
 - `> pip install -r requirements.txt`
-- `> python Examples/symmetric_stratum_basic.py `
+- `> cd Examples`
+- `> python symmetric_neural_network.py `
 
 ***
-## Intermediate Example
-**COMING SOON**
-- Visualize a **TensorFlow Sequential** model.
+
+## TensorFlow (Sequential Model) Training & Visualization
+
+![](Examples/assets_tensorflow/symmetric_tensorflow.gif)
+
+- python >= 3.8
+- Clone this repo
+- `> cd NeuralNetworkVisualization`
+- `> pip install -r requirements.txt`
+- `> cd Examples`
+- `> python symmetric_tensorflow.py `
+
 ***
-## Advanced Example
+
+## TensorFlow (Sequential Model) Network Intensity Colorization Map
+**COMING SOON**
+- Display network weight intensity using a color scale.
+- Display network activations during predictions using a color scale.
+
+# TensorFlow Visualization App
 **COMING SOON**
 - Build an interactive prime number classifier using a **TensorFlow Sequential** model.
 - Implement an intensity color map in order to observe neural network activation during predictions in real-time.

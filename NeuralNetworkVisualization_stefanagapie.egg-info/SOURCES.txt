@@ -1,9 +1,0 @@
-README.md
-setup.py
-NeuralNetworkTopology/__init__.py
-NeuralNetworkTopology/symmetric_topology_implementation.py
-NeuralNetworkTopology/symmetric_topology_interface.py
-NeuralNetworkVisualization_stefanagapie.egg-info/PKG-INFO
-NeuralNetworkVisualization_stefanagapie.egg-info/SOURCES.txt
-NeuralNetworkVisualization_stefanagapie.egg-info/dependency_links.txt
-NeuralNetworkVisualization_stefanagapie.egg-info/top_level.txt
