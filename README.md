@@ -9,8 +9,11 @@ Provides a set of APIs to visualize a network of neurons and connections in 3D s
 ### Running the code
 
 - python >= 3.8
-- Clone this repo
-- `> cd NeuralNetworkVisualization`
+- `> git clone https://github.com/stefanagapie/NeuralNetworkVisualization.git`
+- `> cd NeuralNetworkVisualization` \
+  Create and Activate a Python Virtual Environment (recommended)
+    - `> python3 -m venv ./venv`
+    - `> source venv/bin/activate`
 - `> pip install -r requirements.txt`
 - `> cd Examples`
 - `> python symmetric_neural_network.py `
@@ -23,8 +26,11 @@ Provides a set of APIs to visualize a network of neurons and connections in 3D s
 ### Running the code
 
 - python >= 3.8
-- Clone this repo
-- `> cd NeuralNetworkVisualization`
+- `> git clone https://github.com/stefanagapie/NeuralNetworkVisualization.git`
+- `> cd NeuralNetworkVisualization` \
+  Create and Activate a Python a Virtual Environment (recommended)
+    - `> python3 -m venv ./venv`
+    - `> source venv/bin/activate`
 - `> pip install -r requirements.txt`
 - `> cd Examples`
 - `> python symmetric_tensorflow.py `
