@@ -1,3 +1,4 @@
+-e .
 absl-py==0.11.0
 astunparse==1.6.3
 cachetools==4.2.0
@@ -13,7 +14,6 @@ h5py==2.10.0
 idna==2.10
 Keras-Preprocessing==1.1.2
 Markdown==3.3.3
--e git+https://github.com/stefanagapie/NeuralNetworkVisualization.git@ab843d1c939d827954bebb8c3d30f7299728590f#egg=NeuralNetworkVisualization_stefanagapie
 numpy==1.19.5
 oauthlib==3.1.0
 opt-einsum==3.3.0
